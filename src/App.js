@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App">
       
-<main class= "dark:bg-gray-800 bg-white relative overflow-hidden h-screen" >
+<main class= "dark:bg-gray-800 bg-white relative overflow-hidden" >
 
     <header class=" h-24 sm:h-32 flex items-center z-30 w-full" >
         <div class="container mx-auto px-6 flex items-center justify-between">
        
             <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
-                Watch.ME
+                Kendall Maids
             </div>
             <div class="flex items-center">
                 <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
@@ -20,16 +20,16 @@ function App() {
                         Home
                     </a>
                     <a href="#" class="py-2 px-6 flex">
-                        Watch
+                        About
                     </a>
                     <a href="#" class="py-2 px-6 flex">
-                        Product
+                        Testimonials
                     </a>
                     <a href="#" class="py-2 px-6 flex">
                         Contact
                     </a>
                     <a href="#" class="py-2 px-6 flex">
-                        Carrer
+                        Services
                     </a>
                 </nav>
                 <button class="lg:hidden flex flex-col ml-4">
@@ -44,7 +44,7 @@ function App() {
         </div>
     </header>
     <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
-    <img src={maidsheader} class="bg-scroll bg-opacity-50 absolute h-full w-full object-cover"/>
+    <img src={maidsheader} class="bg-scroll opacity-50 absolute h-full w-full object-cover"/>
         <div class="container  mx-auto px-6 flex relative py-16">
             <div class="sm:w-2/3  lg:w-2/5 flex flex-col relative z-20">
                 <span class="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
@@ -67,9 +67,7 @@ function App() {
                     </a>
                 </div>
             </div>
-            <div class="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-                <img src="/images/object/10.png" class="max-w-xs md:max-w-sm m-auto"/>
-            </div>
+            
         </div>
 
 
